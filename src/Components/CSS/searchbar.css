@@ -1,0 +1,28 @@
+#textarea {
+    width: 70%;
+    height: 55px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: none; 
+    border-radius: 25px;
+    background-color: #6c757d;
+    font-size: 30px; 
+    resize: none;
+    text-align: center;
+    color: white;
+    margin: 5% auto 0; 
+    overflow: hidden;
+    display: block; 
+}
+
+#textarea::placeholder {
+    color: #c4c4c4;
+}
+@media screen and (max-width: 600px) {
+        #textarea{
+            width: 90%;
+            height: 50px;
+            margin-top: 40%;
+            font-size: 19px;
+        }
+}

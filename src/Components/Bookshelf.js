@@ -28,7 +28,7 @@ export default function Bookshelf() {
         }
       }
       fetchbooks();
-    },[id]);
+    },[idInt]);
     return (
       <div className='bookshelfcontainer'>
   
